@@ -1,0 +1,77 @@
+    .main {
+        width:317px;
+        margin:0 auto;
+        margin-top:1.5%;
+        /* margin-bottom: 1%; */
+        background: #1A1B21;
+        font-family: 'Inter';
+        color:white;
+        text-align: center;
+        /* border: 3px solid red; */
+        border-radius: 15px;
+    }
+
+
+    .profilePic {
+        width: 317px;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+
+
+    .buttonContainer * {
+        width:30px;
+        padding-left: 3px;
+        padding-right:3px;
+    }
+
+    .nameSurname {
+        font-weight: 700;
+        color: white;
+        font-size: 28px;
+        line-height: 20%;
+    }
+
+    .occupation {
+        font-weight: 400;
+        color: #F3BF99;
+        font-size: 18px;
+        
+    }
+
+
+    .about > h2, .interests > h2{
+        font-weight: 700;
+        color: #F5F5F5;
+        font-size: 16px;
+    }
+
+    .about > p, .interests > p{
+        font-weight: 400;
+        color: #DCDCDC;
+        font-size: 12px;
+        text-align: left;
+        line-height: 140%;
+    }
+
+    .about, .interests {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .about {
+        margin-bottom: 20px;
+    }
+
+    .quote {
+        font-weight: 400;
+        font-size: 10px;
+        text-decoration: none;
+        font-style: italic;
+        color: #F3BF99;
+        
+    }
+
+    body {
+        background: #23252C;
+    }
