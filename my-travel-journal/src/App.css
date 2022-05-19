@@ -1,0 +1,118 @@
+.card {
+    margin: 50px auto;
+    width: 800px;
+    display: flex;
+}
+
+
+.card--image {
+    height:auto;
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 8px ;
+}
+
+.card--text-container {
+    max-width:fit-content;
+}
+
+.card--location-info {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.card--location {
+    font-size: 16px;
+    padding-left: 3px;
+}
+
+.card--google-location {
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+.location-pin {
+    width: 10px;
+    height: auto;
+}
+
+.card--title {
+    font-weight: bolder !important;
+    font-size: 30px;
+    margin-top: 5px;
+    line-height: 32px;
+}
+
+.badge {
+    background-color: rgb(224, 208, 208);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.card--description {
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.card--title-container {
+    display: flex;
+    align-items:baseline;
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height:55px;
+    width: 100%;
+    justify-content: center;
+    background-color: #f55a5a;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    }
+
+.navbar--title {
+    font-family: TitleFont;
+    font-size: 30px;
+    color: white;
+}
+
+.navbar--icon {
+    width:40px;
+    height: auto;
+    text-align: center;
+    padding-right: 10px;
+}
+
+a:link {
+    color: gray;
+}
+
+hr {
+    width: 800px;
+    border-top: 1 px #F5F5F5;
+}
+
+* {
+    font-family: Inter;
+    /* font-weight: 400; */
+}
+
+html, body {
+    height: 100%;
+  }
+
+.app {
+    width: 100%;
+}
+
+@font-face {
+    font-family: "TitleFont";
+    src: url(./fonts/title-font.ttf);
+  }
